@@ -3,13 +3,13 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char *ssid = "AriWiFi"; // red wifi 2.4GHZ
-const char *password = "holamundo1357.";
+const char *ssid = "wifi"; // red wifi 2.4GHZ
+const char *password = "wifipassword.";
 
 const char *mqttServer = "broker.emqx.io";
 const int mqttPort = 1883;
-const char *mqttUser = "mqttusername_fire";
-const char *mqttPassword = "manzanita1512_0$";
+const char *mqttUser = "username";
+const char *mqttPassword = "password";
 const char *mqttChannel = "devices";
 
 #define DEVICE_ID "52331ed5-ffa4-4565-b181-62451fd02dd5"
