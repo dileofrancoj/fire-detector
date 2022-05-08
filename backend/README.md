@@ -9,6 +9,7 @@ Backend para un detector de incendios WiFi que envía correos y manda notificaci
 - MQTT
 - Winston
 - Babel
+- Axios
 
 # Herramientas adicionales
 
